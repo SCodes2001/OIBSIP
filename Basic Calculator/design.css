@@ -1,0 +1,340 @@
+h1{
+    color: #101010;
+     }
+body {
+    font-family: 'Source Serif Pro', serif;
+    background-image: linear-gradient(to top, #ff00d4, #00ddff);
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.skeleton {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+   
+font-family: 'Source Serif Pro', serif;
+font-size: 40px;
+margin-top: 5px;
+margin-bottom: 13px;
+background-color: #ddffff;
+border: 5px solid black;
+border-radius: 15px;
+width: 465px;
+height: 91px;
+padding: 2px;
+}
+
+button {
+    width: 93px;
+    font-size: 29px;
+    height: 66px;
+    background-color: #def1fb;
+    border-radius: 11px;
+    height: 74px;
+
+}
+
+.yellowbutton {
+    background-color: rgb(255 255 27 / 94%);
+}
+
+.redbutton {
+    background-color: #ff3e7f;
+}
+
+#bt1 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt1:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt2 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt2:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt3 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt3:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt4 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt4:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt5 {
+    transition: all 0.5s ease-in-out;
+    font-size: 20px;
+}
+
+#bt5:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt6 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt6:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt7 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt7:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt8 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt8:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt9 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt9:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt10 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt10:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt11 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt11:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt12 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt12:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt13 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt13:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt14 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt14:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt15 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt15:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt16 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt16:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt17 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt17:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt18 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt18:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt19 {
+  
+display: inline-block;
+width: 187px;
+border-radius: 20px;
+margin-bottom: 20px;
+margin-top: 1px;
+transition: all 1s ease-in-out;
+cursor: pointer;
+}
+
+#bt19:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+}
+
+#bt20 {
+    transition: all 0.5s ease-in-out;
+}
+
+#bt20:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+#bt21 {
+    transition: all 0.5s ease-in-out;
+    margin-top: -17px;
+}
+
+#bt21:hover {
+    background-color: black;
+    color: white;
+    box-shadow: -2px -2px 2px rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+
+.calculator {
+    display: inline-block;
+    box-shadow: -5px -5px 10px rgb(8, 0, 255);
+    background-color: #9be5ff;
+    padding: 10px;
+    border-radius: 20px;
+    height: 534px;
+    width: 506px;
+}
+@media only screen and (max-width:460px){
+.calculator {
+    display: inline-block;
+    box-shadow: -5px -5px 10px rgb(8, 0, 255);
+    background-color: #9be5ff;
+    padding: 10px;
+    border-radius: 30px;
+    width: 326px;
+    height: 450px;
+}
+button {
+    width: 60px;
+    font-size: 29px;
+    height: 60px;
+    background-color: #def1fb;
+    border-radius: 10px;
+}
+
+#bt19 {
+    display: inline-block;
+    width: 123px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+input {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: #ddffff;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 316px;
+    height: 64px;
+    padding: 2px;
+}
+
+}
