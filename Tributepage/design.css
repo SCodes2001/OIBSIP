@@ -1,0 +1,228 @@
+body{
+    background-color:  black;
+    margin: 0px;
+}
+p{
+    margin-top: 1px;
+}
+/* Container for poster */
+#poster {
+    margin: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 2px solid yellow; */
+    width: 99.5vw;
+    height: 96vmin;
+    justify-content: center;
+}
+/* image*/
+#posterimage img{
+    width: 40vw;
+    height: 95vmin;
+    background-repeat: no-repeat;
+    background-size: fit;
+}
+#info{
+    width: 50vw;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#name{
+    
+    font-family: 'Source Serif Pro', serif;
+    color: white;
+    font-size: 5.5vw;
+    font-weight: bold;
+    margin-top: 5vmin;
+    text-align: center;
+}
+#date{
+    
+    color: white;
+    font-size: 3vw;
+    margin-left: 0vw;
+    display: inline-block;
+    margin-top: 3vmin;
+}
+#findout{
+    
+    margin-top: 0vmin;
+    margin-left: 6vw;
+    width: 15vw;
+    font-size: 2vw;
+    height: 10vmin;
+    border-color: royalblue;
+    background-color: black;
+    color: white;
+    margin-bottom: 5vmin;
+    display: inline-block;
+}
+#wikipedia{
+    margin-top: 0vmin;
+    margin-left: 0.5vw;
+    width: 15vw;
+    font-size: 2vw;
+    height: 10vmin;
+    border-color: royalblue;
+    background-color: black;
+    color: white;
+    margin-bottom: 5vmin;
+    display: inline-block;
+}
+#quote{
+    font-family: 'Source Serif Pro', serif;
+    color: royalblue;
+    font-size: 5.5vmin;
+    font-weight: bold;
+    margin-top: 2vmin;
+    text-align: center;
+}
+#findout,#wikipedia:hover{
+    cursor: pointer;
+}
+a:hover{
+    color: yellow;
+}
+a:hover{
+    color: yellow;
+}
+#acheivements{
+    font-family: 'Lora', serif;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 7vmin;
+    float: left;
+    width: 30vw;
+    padding: 2vmin;
+    /* height: 100vmin; */
+    border-right: 2px solid yellow;
+}
+#contents{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2vmin;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 31.5vw;
+    margin-top: 7vmin;
+    /* width: 68vw; */
+    /* height: 150vh; */
+    /* border: 2px solid yellow; */
+    /* text-align: center; */
+    color: white;
+    box-sizing: border-box;
+    font-size: 2.8vmin;
+    flex-flow: row wrap;
+}
+#para2{
+    font-family: 'Lobster', cursive;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 2vw;
+    font-size: 4vw; 
+}
+li{
+    font-family: 'Lora', serif;
+    /* font-family: 'Lobster', cursive; */
+    /* text-align: center; */
+    font-size: 2.85vmin;
+    color: white;
+    margin-top: 3vmin;
+}
+#ImageCarouselCSS{
+    display: block;
+    margin: auto;
+    margin-top: 40vh;
+    clear: both;
+    background-color: white;
+    width: 50vw;
+    height: 10vh;
+    border: 2px solid yellow;
+}
+#img1{
+    height: 50vh;
+}
+#img2{
+ 
+    height: 50vh;
+}
+#img3{
+
+    height: 50vh;
+}
+ #container{ 
+    top: 28vh;
+    height: 29vh;
+    width: 80vw;
+    position: relative;
+    margin-top: 10vh;
+    display: block;
+    margin: auto;
+} 
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 10%;
+    color: #FFB;
+    text-align: center;
+    opacity: 14.5;
+    transition: opacity .15s ease;
+}
+
+.carousel-control-prev {
+    left: 0vw;
+}
+.carousel-control-next {
+    right: 0vw;
+}
+#quotebox{
+    padding: 7vmin;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: blue;
+    margin-top: 128vmin;
+    width: 100vw;
+    /* height: 38vh; */
+    color: white;
+    justify-content: center;
+}
+#p3{
+    display: inline-block;
+    margin-left: 0px;
+    font-size: 3vmin;
+}
+#item{
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+}
+#para3{
+    display: block;
+    margin: 0vw auto;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 3vmin;
+    font-size: 8vw; 
+}
