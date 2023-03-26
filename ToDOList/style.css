@@ -1,0 +1,154 @@
+body{
+  background-color: black;
+  margin-top: 0px;
+  margin-left: 0px;
+  background: url("Nature.jpg.jpg");
+  background-size: 100vw 200vh;
+  background-repeat: no-repeat;
+  opacity: 100%;
+  z-index: -1;
+} 
+.navbar{
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 9vmin;
+}
+li{
+    font-family: 'Lobster', cursive;
+    font-size: 6vmin;
+    text-decoration: none;
+    list-style: none;
+
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    margin: auto;
+    font-size: 6vmin;
+    background: red;
+    position: relative;
+    top: 15vmin;
+    width: 80vw;
+    height: 5vmin;
+}
+.container{
+    position: relative;
+    top: 17vmin;
+    margin-top: 5vh;
+     width: 80vw; 
+    /* height: 60vmin; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    /* background: black; */
+    /* border: 4px solid black; */
+    /* flex-wrap: wrap; */
+}
+#todo:nth-child(odd){
+    display: flex;
+    min-height: 0;
+    min-height: 0;
+    background-color: white;
+    flex-wrap: nowrap;
+    flex-grow: 10;
+    flex-direction: column;
+    box-sizing: border-box ;
+    text-align: center;
+    padding-left: 12px;
+    color: royalblue;
+    margin-bottom: 2px;
+    overflow-x: scroll;
+    width: 74vw;
+   border-radius:10px ; 
+}
+#todo:nth-child(even){
+    display: flex;
+    min-height: 0;
+    min-height: 0;
+    background-color: cyan;
+    flex-wrap: nowrap;
+    flex-grow: 10;
+    flex-direction: column;
+    box-sizing: border-box ;
+    text-align: center;
+    padding-left: 12px;
+    color: royalblue;
+    margin-bottom: 2px;
+    overflow-x: scroll;
+    width: 74vw;
+   border-radius:10px ; 
+}
+.container2>div:nth-child(even){
+    background-color: black;
+}
+.container2>div:nth-child(even){
+    background-color: white;
+}
+input{
+    font-family: 'Lobster', cursive;
+    padding-left: 12px;
+    padding-top: 2px;
+    width: 74vw;
+    margin-top: 1px;
+    font-size: 6vmin ;
+    border-radius:10px ; 
+}
+/* #button1{
+    margin-left: 1vw;
+    height: 10vmin;
+    width: 4.2vw;
+    border-radius: 10px;
+} */
+#image{
+    margin-left: 1vw;
+    height: 8vmin;
+    width: 3vw;
+    border-radius: 10px; 
+}
+#image:hover{
+  cursor: pointer;
+}
+.outerbox{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    /* border: 2px solid yellow; */
+}
+.container2{
+    position: relative;
+    top: 30vmin;
+    font-family: 'Lobster', cursive;
+     width: 80vw; 
+    /* height: 60vmin; */
+    display: flex;
+    min-height: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    padding-left: 12px;
+    font-size: 6vmin ;
+    /* background-color: black; */
+    /* border: 4px solid black; */
+    flex-wrap: wrap;
+}
+#image1{
+    margin-left: 1vw;
+    height: 8vmin;
+    width: 3vw;
+    border-radius: 10px; 
+}
+#image1:hover{
+    cursor: pointer;
+}
